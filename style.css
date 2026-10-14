@@ -6,19 +6,16 @@ header{
     justify-content: center;
     background-color: gray;
 }
-
 body{
-    background-color: gainsboro;
-    color: black;
+    background-color: black;
 }
 
-button{
-    background-color:gray;
-    border-color: black;
-    border-radius: 20%;
-    width:auto;
-}
 
-#buttons{
+
+.filterButtons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
     
 }
+
